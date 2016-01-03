@@ -12,7 +12,7 @@ My collection of thoughts and notes to small things that I learn and feel like r
 - [scope](javascript/scope.md)
 - [closures] (javascript/closures.md)
 - [protoype] (javascript/prototype.md)
- 
+- [falsy] (javascript/falsy-values.md)
 
 
 ##About
