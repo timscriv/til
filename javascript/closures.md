@@ -58,9 +58,94 @@ foo();
 ```js
 for(var i = 1; i<=5; i++) {
     setTimeout(function(){
-        console.log("i: " + i);
+        console.log("i: " + i); //prints 6 five times.
     },i*1000);
 }
 ```
-   
+- i is always going to be the parent i.
+- i is part of the parent scope(closure)
+
+```js
+for(var i = 1; i<=5; i++) {
+    (function(i){
+        setTimeout(function(){
+            console.log("i: " + i); //prints 1,2,3,4,5.
+        },i*1000);
+    })(i);
+}
+```
+This fixes by creating a new scope for each iteration.
+
+###More Closure Examples
+
+```js
+for(let i = 1; i<=5; i++) {
+    setTimeout(function(){
+        console.log("i: " + i); 
+    },i*1000);
+}
+```
+- let will create a brand new i for each iteration
+
+```js
+var foo = (function(){
+    var o = {bar:"bar"};
+    return {obj:o};
+})();
+
+console.log(foo.obj.bar); //"bar"
+```
+This is not an example of closure because there is no function keeping a reference to it's lexical scope.
+
+### Module Patterns
+
+** Classic Module Pattern **
+
+```js
+var foo = (function(){
+
+    var o = {bar:"bar"};
+    
+    return {
+      bar: function(){
+          console.log(o.bar);
+      }  
+    };    
+})();
+
+foo.bar();  // "bar"
+```
+
+Characteristics
+1. Must have outer wrapping function that gets executed.
+2. Must be 1 or more function that get returned from the outer function with closure over the private scope
+
+** Modern Module Pattern **
+
+```js
+define("foo",function(){
+
+    var o = {bar:"bar"};
+    
+    return {
+      bar: function(){
+          console.log(o.bar);
+      }  
+    };    
+});
+```
+
+** ES6 Module Pattern **
+
+```js
+var o = {bar:"bar"};
+
+export function bar() {
+    return o.bar;
+}
+```
+
+With this export we can then `import` into another file.
+
+
 
