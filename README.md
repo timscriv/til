@@ -1,2 +1,2 @@
-# til
-A collection of the little tidbits of knowledge and notes that I have.
+# TIL
+My collection of thoughts and notes to small things that I learn and feel like remembering for later.
