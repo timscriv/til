@@ -325,13 +325,15 @@ o2.foo();   //bar2 (implicit binding rule)
 o3.foo();   //bar3
 ```
 
-4 Rules of this  
+**4 Rules of this  **
+
 1. Default binding rule - "strict mode"(this defaults to undefined) not strict means default to current context
 2. Implicit binding rule - o2.foo then this keyword will point to o2 
 3. Explicit binding rule - if you use .call or .apply they take a thisArg as the first argument
 4. the new keyword binding 
 
-this binding Rules in order  
+**this binding Rules in order  **
+
 1. Was the function called with `new`?
 2. Was the function called with `call` or `apply` specifting an explicit `this`?
 3. Was the function called vie a containing/owning object(context)?
@@ -428,9 +430,8 @@ baz.baz; //baz
 - new Keyword changes a function call to a constructor call
 
 **4 this that new keyword does**  
+
 1. brand new empty object will be created
 2. obj gets linked* to a different object
 3. bound as the 'this' keyword for the function call
 4. if the object does not return then it will implicitly return this;
-
-Continues on [Closures Link](closures.md)
