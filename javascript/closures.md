@@ -99,7 +99,7 @@ This is not an example of closure because there is no function keeping a referen
 
 ### Module Patterns
 
-** Classic Module Pattern **
+**Classic Module Pattern**
 
 ```js
 var foo = (function(){
@@ -120,7 +120,7 @@ Characteristics
 1. Must have outer wrapping function that gets executed.
 2. Must be 1 or more function that get returned from the outer function with closure over the private scope
 
-** Modern Module Pattern **
+**Modern Module Pattern**
 
 ```js
 define("foo",function(){
@@ -135,7 +135,7 @@ define("foo",function(){
 });
 ```
 
-** ES6 Module Pattern **
+**ES6 Module Pattern**
 
 ```js
 var o = {bar:"bar"};
