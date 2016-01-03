@@ -11,6 +11,7 @@ My collection of thoughts and notes to small things that I learn and feel like r
 ### javascript
 - [scope](javascript/scope.md)
 - [closures] (javascript/closures.md)
+- [protoype] (javascript/prototype.md)
  
 
 
