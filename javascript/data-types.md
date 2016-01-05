@@ -1,5 +1,5 @@
 #JavaScript Data Types
-JavaScript has 7 data types, 6 are primative and immutable and Objects.
+JavaScript has 7 data types, 6 are primative and immutable, and the others are Objects.
 
 ##Primative Types
 **Boolean**
