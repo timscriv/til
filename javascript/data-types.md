@@ -44,5 +44,5 @@ console.log(x.foo,y.foo); // bar bar
 ```
 
 ##References
-[Mozilla JavaScript data types and data structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
-[airbnb/javascript](https://github.com/airbnb/javascript)
+- [Mozilla JavaScript data types and data structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+- [airbnb/javascript](https://github.com/airbnb/javascript)
