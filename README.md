@@ -5,6 +5,7 @@ My collection of thoughts and notes to small things that I learn and feel like r
 
 ###Categories
 - [JavaScript](#javascript)
+- [AspNetCore](#aspnetcore)
 
 ---
 
@@ -15,6 +16,8 @@ My collection of thoughts and notes to small things that I learn and feel like r
 - [falsy] (javascript/falsy-values.md)
 - [data types] (javascript/data-types.md)
 
+### AspNetCore
+- [Changing Environment Variables](aspnetcore/resetenvvariables.md)
 
 ##About
 This wonderful idea was stolen from [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.md), who stole it from [thoughtbot/til](https://github.com/thoughtbot/til), and was probably stolen many other times. Thanks!
