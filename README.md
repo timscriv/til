@@ -6,6 +6,7 @@ My collection of thoughts and notes to small things that I learn and feel like r
 ###Categories
 - [JavaScript](#javascript)
 - [AspNetCore](#aspnetcore)
+- [VSTS](#vsts)
 
 ---
 
@@ -18,6 +19,9 @@ My collection of thoughts and notes to small things that I learn and feel like r
 
 ### AspNetCore
 - [Changing Environment Variables](aspnetcore/resetenvvariables.md)
+
+### VSTS
+- [Nuget.config Location](vsts/nuget-config.md)
 
 ##About
 This wonderful idea was stolen from [jbranchaud/til](https://github.com/jbranchaud/til/blob/master/README.md), who stole it from [thoughtbot/til](https://github.com/thoughtbot/til), and was probably stolen many other times. Thanks!
