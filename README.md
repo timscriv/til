@@ -7,6 +7,7 @@ My collection of thoughts and notes to small things that I learn and feel like r
 ### Categories
 
 - [AspNetCore](#aspnetcore)
+- [Azure ARM](#azure-arm)
 - [Azure API Management](#azure-api-management)
 - [JavaScript](#javascript)
 - [VSTS](#vsts)
@@ -15,11 +16,15 @@ My collection of thoughts and notes to small things that I learn and feel like r
 
 ### AspNetCore
 
-- [Changing Environment Variables](aspnetcore/resetenvvariables.md)
+- [Changing environment variables](aspnetcore/resetenvvariables.md)
+
+### Azure ARM
+
+- [Another certificate exists with same thumbprint](azure-arm/certificate-same-thumbprint.md)
 
 ### Azure Api Management
 
-- [Query String to Body](azure-api-management/query-string-to-body.md)
+- [Query string to body](azure-api-management/query-string-to-body.md)
 
 ### JavaScript
 
@@ -27,11 +32,11 @@ My collection of thoughts and notes to small things that I learn and feel like r
 - [Closures](javascript/closures.md)
 - [Protoype](javascript/prototype.md)
 - [Falsy](javascript/falsy-values.md)
-- [Data Types](javascript/data-types.md)
+- [Data types](javascript/data-types.md)
 
 ### VSTS
 
-- [Nuget.config Location](vsts/nuget-config.md)
+- [Nuget.config location](vsts/nuget-config.md)
 
 ## About
 
